@@ -1,0 +1,15 @@
+header {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  #portfolio img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+  }
+  

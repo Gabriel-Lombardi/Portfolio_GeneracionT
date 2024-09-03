@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mi Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center py-5">
+        <img src="src/20230605_213627.png" alt="Gabriel-Lombardi" class="rounded-circle" width="150">
+        <h1 class="my-3">Lombardi Gabriel Tomás</h1>
+        <p class="lead">Desarrollador Web</p>
+    </header>
+
+    <section id="portfolio" class="container my-5">
+        <h2 class="text-center">Portfolio</h2>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="https://gabriel-lombardi.github.io/wordle-renovado/" target="_blank"><img src="src/wordle.png" alt="Proyecto 1" class="img-fluid rounded"></a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://gabriel-lombardi.github.io/Fixture-Qatar-2022/" target="_blank"><img src="src/fixture-qatar.png" alt="Proyecto 2" class="img-fluid rounded"></a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://gabriel-lombardi.github.io/Historia_Interactiva/" target="_blank"><img src="src/historiaInteractiva.png" alt="Proyecto 3" class="img-fluid rounded"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container my-5">
+        <h2>Acerca de mí</h2>
+        <hr>
+        <p>Último año de estudio.<br>Una persona responsable y proactiva.<br>En busca de mi primer empleo para crecer profesionalmente y adentrarme en el mundo laboral.</p>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2>Contacto</h2>
+        <hr>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="text-center py-3">
+        <p>© 2024 Lombardi Gabriel - Todos los derechos reservados.</p>
+        <p>Redes Sociales: <a href="https://www.linkedin.com/in/gabriel-lombardi-83377728b/" target="_blank">LinkedIn</a> | <a href="https://github.com/Gabriel-Lombardi?tab=repositories" target="_blank">GitHub</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
